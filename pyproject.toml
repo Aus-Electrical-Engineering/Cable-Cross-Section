@@ -1,10 +1,11 @@
 [project]
 name = "cable-cross-section"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.1.1"
+description = "Cable Conduit Calc"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "cx-freeze>=8.4.0",
     "pygame>=2.6.1",
     "pymunk>=6.11.1",
     "pyside6>=6.9.0",
